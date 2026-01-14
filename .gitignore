@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Ignored Folders (Large Backups/Cloud)
+cloud-version/
+backup/
+backups/
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Env & Secrets
+.env
+.env.local
+*.pem
+
+# Vercel
+.vercel
